@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.container-fluid .con-form {
+  width: 70%;
+}
+.con-form .txt-head{
+  font-size: xx-large;
+  color: rgb(18, 93, 255);
+  text-decoration: underline;
+}
+.con-form .btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row-form{
+  width: 100%;
+}
+.row-form .col-12 .table {
+  table-layout: fixed;
+}
+.row-form .col-12 .table th, td {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#tblData tbody tr td i{
+    color: rgb(33, 136, 239);
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+/* #tblData tbody tr td:nth-child(8){
+  display: table-cell;
+  width: 20px;
+} */
+#tblData tbody tr td i:hover{
+    scale: calc(1.03);
+    color: rgb(249, 21, 97);
+}
